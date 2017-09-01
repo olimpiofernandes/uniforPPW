@@ -1,0 +1,324 @@
+/* CSS Style page facebook and twitter */
+* {
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+}
+body {}
+a {
+    color:1874CD;
+    font-weight: 700;
+}
+.navBar {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 5px;
+    display: table;
+}
+.bg-narBar {
+    background: #1874CD;
+}
+.ajus-cont {
+    max-width: 1200px;
+    width:80%;
+    min-width: 750px;
+    height: auto;
+    border: 0px solid #fff;
+    margin: 5px auto 0px auto;
+    position: relative;
+    display: table;
+    background: transparent;
+    text-align: center;
+}
+.logoNavBar {
+    float: left;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border: 0px solid #f00;
+    background: transparent;
+}
+.imgLogo {
+    width: 100%;
+    background: transparent;
+}
+.notificacoesUsers {
+    float: left;
+    width: 130px;
+    height: 32px;
+    margin-top: 8px;
+    margin-left: 25px;
+    display: block;
+    border: 0px solid #f00;
+    background: transparent;
+}
+.appStyleImg {
+    background: transparent;
+}
+.users, .message, .notif{
+    margin-right: 9px;
+}
+.barBusca {
+    float: left;
+    max-width: 650px;
+    min-width: 150px;
+    width: 50%;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: left;
+    border: 0px solid #f00; /* Cor da borda campo Busca*/
+}
+.formBusca {
+    max-width: 90%;
+    min-width: 100px;
+    width: 95%;
+    height: 30px;
+    border: 0px;
+    outline: none;
+    border: 0px solid #000;
+    font-family: helvetica, lucinda consolas, tahoma, sans-serif;
+}
+.iconSearch {
+    float: right;
+    margin-top: 8px;
+    margin-bottom: -4px;
+    margin-right: 5px;
+}
+.others {
+    float: left;
+    display: table;
+    margin-top: 7px;
+    background: transparent;
+    border: 0px solid #f00;
+}
+.fontOth {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-weight: 600;
+    font-size: 12px;
+}
+.imgProfileAccess {
+    margin-bottom: 3px;
+    margin-right: 4px;
+}
+.menu {
+    float: right;
+    width: 160px;
+    border: 0px solid #f00;
+    background: transparent;
+}
+.liMenuDrop {
+    color: #fff;
+}
+.transparent {background: transparent; border: 0px; outline: none; cursor: pointer; float: right}
+/* CSS aplicado a barra de funções do site */
+
+
+.containerMain{
+    max-width: 1200px;
+    min-width: 750px;
+    width: 78%;
+    height: 1200px;
+    border: 0px solid #000;
+    background: transparent;
+    color: #000;
+    margin: -9px auto;
+}
+
+.containerBigImage {
+    width: 100%;
+    height: auto;
+    min-height: 25em;
+    max-height: 30px;
+    overflow: auto;
+    background: #ccc;
+}
+.imagemBackSl {position: justify;}
+.containerInfo{
+    width: 100%;
+    height: 270px;
+    background: #fff;
+}
+.profilePhoto {
+    width: 170px; 
+    height: 170px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 5px #000;
+    position: relative;
+}
+.lineOptionFirst {
+    position: relative;
+    width: 70%; 
+    height: 41px;
+    float: left;
+    margin-left: 26%;
+    margin-top: -49px;
+    border: 0px solid #f00;
+}
+.menuOption {
+    width: 100px;
+    height:40px;
+    border: 0px;
+    float: left;
+    background: transparent;
+    outline: none;
+    margin-right: 8px;
+}
+.decoMenu {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-size: 17px;
+    font-weight: 800;
+    color: cornflowerblue;
+}
+.infoName {
+    float: left;
+    margin-left: 3%;
+    width: 30%;
+    height: auto;
+}
+.NameUserFont {
+    font-family: lucinda consolas, arial, tahoma, verdana;
+    font-size: 20px;
+    font-weight: 800;
+    color: #4F4F4F
+}
+.OtherUserFont {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: helvetica, verdana, arial, tahoma;
+    color: #4F4F4F;
+}
+.ajust-PhotoProfile {
+    margin: -100px 5% 1% 3%;   
+}
+.dataInfoUsers {
+    width: 100%; 
+    height: 30px;
+    border: 0px solid #ccc;
+}
+
+.mainInfo {
+    width: 100%;
+    margin: 20px auto;
+    border: 0px solid #ccc;
+    display: table;
+}
+.dataUser {
+    float: left;
+    width: 45%;
+    min-width: 250px;
+    max-width: 590px;
+    display: table;
+    border: 0px solid #f00;
+}
+.infoUserDU {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+.spanTextData {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-size: 18px;
+    color: #696969;
+    font-weight: 700;
+}
+.fontEspec {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-size: 13px;
+    font-weight: 800;
+    color: #696969;
+}
+.fontCompl {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-size: 13px;
+    font-weight: 800;
+    color: #00BFFF;
+}
+.photosUser {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+.photoDiv {
+    float: left;
+    margin: 8px 8px;
+    width: 60px;
+    height: 60px;
+}
+.posts {
+    float: right;
+    width: 45%;
+    min-width: 250px;
+    max-width: 590px;
+    border: 0px solid #f00;
+}
+.postingDiv {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.textPost {
+    width: 100%;
+    resize: none;
+    border: 0px;
+    outline: none; 
+}
+.buttonPost {
+    width: 100px;
+    height: 40px;
+    margin: 5px 0px 5px 0px;
+    border: 0px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.buttonStylePost {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+    background: #00BFFF;
+}
+.buttonStylePost:hover {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+    background: #f00;
+}
+.ListPostsLast {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 0px solid #ccc;
+}
+.linePerso {
+    width: 98%;
+    border: 2px solid #fff
+}
+.iconAjust {
+    margin-top: -5px;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background: #ccc;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.fFontStyle {
+    font-family: helvetica, verdana, arial, tahoma;
+    font-weight: 600px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+    background: transparent;
+}
